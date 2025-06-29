@@ -80,3 +80,35 @@ These parameters help assess the health of water bodies and can serve as early w
 > Performance was acceptable across all predicted parameters with scope for further enhancement via hyperparameter tuning and model ensembling.
 
 ---
+✅ **Yes, you can absolutely use this link in your `README.md`** — it’s already publicly shareable and perfect for linking your `pollution_model.pkl` file!
+
+Here’s how to add it in a **creative and professional way** inside your `README.md`:
+
+---
+
+### 📦 Water Pollution Prediction Model
+
+Download the trained model for predicting water pollution levels, developed in **Week 2** of the Water Quality Prediction Project (AICTE Virtual Internship):
+
+> [📥 **Download `pollution_model.pkl`**](https://drive.google.com/file/d/1KMbXg8rvcfcVtQib48ShpWQ-dpDZpuvU/view?usp=sharing)
+
+<sub>🔓 Publicly accessible — no sign-in required.</sub>
+
+---
+
+### 🔬 Model Info
+
+* ✅ Includes improvements to `station_id = 19` mapping logic
+* 🎲 Uses `random_state = 7` for reproducibility
+* 📊 Predicts pollution levels using water quality indicators
+
+---
+
+### 🧪 Load the Model (Python Example)
+
+```python
+import joblib
+
+model = joblib.load("pollution_model.pkl")
+prediction = model.predict(input_data)
+```
